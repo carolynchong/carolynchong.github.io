@@ -4,17 +4,17 @@
 
 body {
 	margin: 0px;
-	font-family: 'Karma', serif;
+	font-family: sans-serif;
 	color: #f7f7f7;
 }
 
 body a {
-	color: #9BC272;
-    text-decoration: none;
+	color: white;
+    text-decoration: underline;
 }
 
 body a:hover {
-	color: #52C2D4;
+	color: #888;
 }
 
 .content {
@@ -26,27 +26,21 @@ body a:hover {
 }
 
 .about {
-	
+	padding-top: 440px;
 	padding-left: 25px;
 	padding-right: 25px;
     padding-bottom: 10px;
 }
 
 .about h1 {
-	font-size: 5em;
+	font-size: 4em;
 } 
 
 .about p {
 	margin-left: 10px;
 	margin-right: 10px;
-} 
-
-/*tablet*/
-@media (min-width: 768px) {
-	.about {
-	    
-	}
 }
+
  /*laptop*/
 @media (min-width: 992px) {
 	.content {
@@ -54,9 +48,18 @@ body a:hover {
 		background-size: contain;
 	}
 	.about {
+	    padding-top: 0px;
+	    padding-bottom: 0px;
 	    background-color: white;
-	    width: 40%;
+	    width: 55%;
 	    float: right;
 	    color: #50556C;
+	}
+	body a {
+		color: #50556C;
+	    text-decoration: underline;
+	}
+	body a:hover {
+		color: #888;
 	}
 }
