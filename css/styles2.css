@@ -4,7 +4,7 @@
 
 body {
 	margin: 0px;
-	font-family: 'Inconsolata', monospace;
+	font-family: sans-serif;
 	color: #f7f7f7;
 }
 
@@ -14,23 +14,15 @@ body a {
 }
 
 body a:hover {
-	text-decoration: none;
-}
-
-h1 {
-	font-family: 'Montserrat', sans-serif;
+	color: #888;
 }
 
 .content {
 	background-image: url("../img/carolyn_bg_dim_full.jpg");
 	background-repeat: no-repeat;
     background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     background-color: white;
-    height: 100%;
 }
 
 .about {
@@ -41,44 +33,33 @@ h1 {
 }
 
 .about h1 {
-	font-size: 6em;
+	font-size: 4em;
 } 
 
 .about p {
 	margin-left: 10px;
 	margin-right: 10px;
-	margin-top: 5px;
-    margin-bottom: 10px;
 }
 
  /*laptop*/
 @media (min-width: 992px) {
 	.content {
 		background-image: url("../img/carolyn_bg.jpg");
-		-webkit-background-size: contain;
-	    -moz-background-size: contain;
-	    -o-background-size: contain;
-	    background-size: contain;
-	    height: 750px;
+		background-size: contain;
 	}
 	.about {
 	    padding-top: 0px;
 	    padding-bottom: 0px;
 	    background-color: white;
 	    width: 55%;
-	    padding-left: 50px;
+	    float: right;
 	    color: #50556C;
-	    height: 100%;
-	    position: absolute;
-	    right: 0;
-	    overflow-y: scroll;
-	}
-	.about h1 {
-		color: #257899;
 	}
 	body a {
 		color: #50556C;
 	    text-decoration: underline;
-		}
+	}
+	body a:hover {
+		color: #888;
 	}
 }
