@@ -67,7 +67,7 @@ h1 {
 	    width: 55%;
 	    padding-left: 50px;
 	    color: #50556C;
-	    height: 100vh;
+	    height: 100%;
 	    position: absolute;
 	    right: 0;
 	    overflow-y: scroll;
