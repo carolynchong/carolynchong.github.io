@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+
 <html class="content">
+
 <head>
 	<link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
@@ -12,26 +14,11 @@
     <link rel="shortcut icon" href="favicon.ico?v=2" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118371833-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-
-		gtag('config', 'UA-118371833-1');
-
-		// Eliminate funky background jump on mobile upon scroll due to URL bar. More info here: https://stackoverflow.com/questions/24944925/background-image-jumps-when-address-bar-hides-ios-android-mobile-chrome
-		var bg = $(".content");
-
-		function resizeBackground() {
-		    bg.height( $(window).height() + 60);
-		}
-
-		$(window).resize(resizeBackground);
-		resizeBackground();
-	</script>
-
-
+	<!-- JS scripts -->
+	<script async src="js/script.js"></script>
+	<script defer src="js/script.js"></script>
 </head>
+
 <body>
 
 	<div class="about">
@@ -58,7 +45,6 @@
 		<p>I can also be found petting your dog.</p>
 	</div>
 
-
-
 </body>
+
 </html>
