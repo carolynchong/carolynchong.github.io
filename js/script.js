@@ -6,6 +6,11 @@ gtag('js', new Date());
 
 gtag('config', 'UA-118371833-1');
 
+// Fade in on page load
+$(function(){  // $(document).ready shorthand
+  $('.content').hide().fadeIn('slow');
+});
+
 // Eliminate funky background jump on mobile upon scroll due to URL bar. More info here: https://stackoverflow.com/questions/24944925/background-image-jumps-when-address-bar-hides-ios-android-mobile-chrome
 // var bg = $(".content");
 
