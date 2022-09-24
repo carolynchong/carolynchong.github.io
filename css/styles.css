@@ -21,7 +21,7 @@ h1 {
 	font-family: 'Montserrat', sans-serif;
 }
 
-html {
+.content {
 	background-image: url("../img/carolyn_bg_dim_full.jpg");
 	background-repeat: no-repeat;
     background-attachment: fixed;
@@ -39,7 +39,7 @@ html {
 	padding-right: 25px;
     padding-bottom: 10px;
     height: 100%;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 .about h1 {
@@ -55,7 +55,7 @@ html {
 
  /*laptop*/
 @media (min-width: 992px) {
-	html {
+	.content {
 		background-image: url("../img/carolyn_bg.jpg");
 		-webkit-background-size: contain;
 	    -moz-background-size: contain;
