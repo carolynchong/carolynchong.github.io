@@ -37,7 +37,7 @@ h1 {
 	padding-top: 45vh;
 	padding-left: 25px;
 	padding-right: 25px;
-    padding-bottom: 10px;
+    /*padding-bottom: 10px;*/
     height: 100vh;
     overflow: scroll;
 }
