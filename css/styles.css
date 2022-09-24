@@ -6,6 +6,15 @@ body {
 	margin: 0px;
 	font-family: 'Inconsolata', monospace;
 	color: #f7f7f7;
+	background-image: url("../img/carolyn_bg_dim_full.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: black;
+    height: 100%;
 }
 
 body a {
@@ -22,15 +31,15 @@ h1 {
 }
 
 .content {
-	background-image: url("../img/carolyn_bg_dim_full.jpg");
+	/*background-image: url("../img/carolyn_bg_dim_full.jpg");
 	background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-color: transparent;
-    height: 100%;
+    background-color: black;
+    height: 100%;*/
 }
 
 .about {
